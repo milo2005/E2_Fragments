@@ -3,6 +3,8 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="open_nav">Menu abierto</string>
+    <string name="close_nav">Menu Cerrado</string>
 
     <string-array name="colors">
         <item>Azul</item>

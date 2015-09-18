@@ -3,6 +3,7 @@ package com.example.dariochamorro.fragmentsii;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -16,6 +17,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     NavigationView nav;
 
     ColorFragment color;
+
+    ActionBarDrawerToggle toggle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +36,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         nav = (NavigationView) findViewById(R.id.nav);
 
         nav.setNavigationItemSelectedListener(this);
+
+        toggle = new ActionBarDrawerToggle(this,drawer,R.string.open_nav, R.string.close_nav);
+
     }
 
 
