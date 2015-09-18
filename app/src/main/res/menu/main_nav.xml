@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_azul"
+        android:title="Azul"
+          android:icon="@android:drawable/ic_menu_delete"
+        />
+    <item
+        android:id="@+id/nav_rojo"
+        android:title="Rojo"
+        android:icon="@android:drawable/ic_menu_add"
+        />
+    <item
+        android:id="@+id/nav_amarillo"
+        android:title="Amarillo"
+        android:icon="@android:drawable/ic_menu_compass"
+        />
+    <item
+        android:id="@+id/nav_verde"
+        android:title="Verde"
+        android:icon="@android:drawable/ic_menu_crop"
+        />
+    <item
+        android:id="@+id/nav_naranja"
+        android:title="Naranja"
+        android:icon="@android:drawable/ic_menu_day"
+        />
+    <item
+        android:id="@+id/nav_violeta"
+        android:title="Violeta"
+        android:icon="@android:drawable/ic_menu_edit"
+        />
+
+    <item android:title="Perfil">
+        <menu>
+            <item android:title="Cerrar Sesion"/>
+        </menu>
+    </item>
+
+</menu>
