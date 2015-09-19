@@ -14,7 +14,7 @@ import com.example.dariochamorro.fragmentsii.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class ColorFragment extends Fragment {
+public class ColorFragment extends TitleFragment {
 
     public static final int COLOR_AZUL=0;
     public static final int COLOR_ROJO=1;
@@ -60,4 +60,17 @@ public class ColorFragment extends Fragment {
     }
 
 
+    @Override
+    public String getTitle() {
+        switch (color){
+            case COLOR_AZUL: return "Azul";
+            case COLOR_ROJO: return "Rojo";
+            case COLOR_AMARILLO: return "Amarillo";
+            case COLOR_VERDE: return "Verde";
+            case COLOR_VIOLETA: return "Violeta";
+            case COLOR_NARANJA: return "Naranja";
+            default: return "Azul";
+        }
+
+    }
 }

@@ -14,5 +14,6 @@
         <item>Naranja</item>
         <item>Violeta</item>
     </string-array>
+    <string name="title_activity_color">ColorActivity</string>
 
 </resources>
